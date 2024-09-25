@@ -1,41 +1,211 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="fa">
+
 <head>
-    
-  <meta http-equiv="refresh" content="0;https://userali.ir/?utm_source=script-userali&utm_medium=script-userali&utm_campaign=script-userali&utm_term=script-userali&utm_content=script-userali">
-            
-<script>
-document.onkeydown = function (e) {
- if(e.keyCode == 123) {
-return false;
+
+<style>
+.hidden {
+    display: none;
 }
-if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-return false;
+
+#copy-message {
+    z-index: 1;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-return false;
+
+.copy-link {
+    cursor: pointer;
+    color: #604D9D;
+    text-decoration: underline;
 }
-if(e.ctrlKey && e.keyCode == 85) {
-return false;
-}}
-document.addEventListener('contextmenu', function(e) {
-e.preventDefault();
-});</script>
-    
-         <script>
-    window.history.pushState(null, null, window.location.href);
-window.onpopstate = function () {
-    window.history.go(1);
+
+a:link {
+  color: #604D9D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #604D9D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+                cursor: cell;
+  color: #604D9D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #604D9D;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+        .loading-gif {
+            max-width: 500px;
+        }
+
+        .pre-loader {
+            position: fixed;
+            z-index: 100; 
+            top: 0;
+            left: 0;
+            background: #191f26;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .pre-loader.hidden {
+            animation: fadeOut 2s; /** change to 1s */
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeOut {
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+</style>
+
+    <script type="text/javascript">
+
+// Disable right-click
+document.addEventListener("contextmenu", (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, "I") ||
+    ctrlShiftKey(e, "J") ||
+    ctrlShiftKey(e, "C") ||
+    (e.ctrlKey && e.keyCode === "U".charCodeAt(0))
+  )
+    return false;
 };
-   </script>
-   
-        <script>
-   response.setHeader("cache-control","no-cache");
-      </script>
-    
+
+ </script>
+ 
+ <script>
+console.clear();
+ </script>
+
+    <noscript>
+  <meta http-equiv="refresh" content="0; URL=https://go.userali.ir/no-js">
+</noscript>
+
   <meta charset="UTF-8">
-  <title>userali.ir</title>
+  <title>لیست اسکریپت ها</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta name="author" content="Ali Dehghan">
+  <link rel="stylesheet" href="./css/css1.css">
+  <link rel="stylesheet" href="./css/css2.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.jpg">
+  </head>
 
-</head>
+<body class="shabnam">
+    
+        <div class='pre-loader'>
+    <img class='loading-gif' width="150" height="150" draggable="false" alt='Loading' src="./images/loading/loading.gif"/>
+</div>
+    
+  <div class="container">
+    <h1>↓ اسکریپت ها ↓</h1>
+  </div>
+  </section>
 
+  <section class="timeline">
+    <ul>
+        
+      <li>
+        <div>
+          <time>⬅️ (1) غیرفعال کردن راست کلیک</time><p> :لینک اِسکریپت</p><a href="javascript:void(0)" class="copy-link" data-link="https://script.userali.ir/drc/drc1.js">https://script.userali.ir/drc/drc1.js</a>
+                 <br>برای کپی کردن روی لینک کلیک کنید<br>
+              <div id="copy-message" class="hidden">لینک کپی شد!</div>
+         <br>✅ رایگان ✅<br>
+        </div>
+      </li>
+	  
+      <li>
+        <div>
+          <time>⬅️ (2) غیرفعال کردن راست کلیک</time><p> :لینک اِسکریپت</p><a href="javascript:void(0)" class="copy-link" data-link="https://script.userali.ir/drc/drc2.js">https://script.userali.ir/drc/drc2.js</a>
+                 <br>برای کپی کردن روی لینک کلیک کنید<br>
+              <div id="copy-message" class="hidden">لینک کپی شد!</div>
+         <br>✅ رایگان ✅<br>
+        </div>
+      </li>
+  
+        <li>
+        <div>
+          <time>⬅️ (3) غیرفعال کردن راست کلیک  </time><p> :لینک اِسکریپت</p><a href="javascript:void(0)" class="copy-link" data-link="https://script.userali.ir/drc/drc3.js">https://script.userali.ir/drc/drc3.js</a>
+                 <br>برای کپی کردن روی لینک کلیک کنید<br>
+              <div id="copy-message" class="hidden">لینک کپی شد!</div>
+         <br>✅ رایگان ✅<br>
+        </div>
+      </li>
+  
+          <li>
+        <div>
+          <time>⬅️ ریدایرکت به HTTPS</time><p> :لینک اِسکریپت</p><a href="javascript:void(0)" class="copy-link" data-link="https://script.userali.ir/https/https1.js">https://script.userali.ir/https/https1.js</a>
+                 <br>برای کپی کردن روی لینک کلیک کنید<br>
+              <div id="copy-message" class="hidden">لینک کپی شد!</div>
+         <br>✅ رایگان ✅<br>
+        </div>
+      </li>
+  
+    </ul>
+  </section>
+
+<script>
+    window.addEventListener('load', function () {
+        document.querySelector('.pre-loader').className += ' hidden';
+    });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const copyLinks = document.querySelectorAll('.copy-link');
+    const copyMessage = document.getElementById('copy-message');
+
+    copyLinks.forEach(function(copyLink) {
+        copyLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            const link = copyLink.getAttribute('data-link');
+            navigator.clipboard.writeText(link).then(function() {
+                copyMessage.textContent = 'لینک کپی شد';
+                copyMessage.classList.remove('hidden');
+                setTimeout(function() {
+                    copyMessage.classList.add('hidden');
+                }, 2000);
+            }).catch(function(error) {
+                console.error('خطا در کپی کردن متن: ', error);
+            });
+        });
+    });
+});
+</script>
+
+  <script src="./js/js1.js" defer></script>
+  
+  <a href="https://userali.ir" target="_blank" id="watermark">www.userali.ir</a>
+
+</body>
 </html>
